@@ -88,6 +88,7 @@ body{
 
 .tabla{
     margin-top: 25px;
+    margin-bottom: 25px;
     font-size: 25px;
     border-collapse: separate;
     border: black 2px;
@@ -132,6 +133,7 @@ body{
     color: #FFFDFC;
 }
 
+
 .bitacora:hover{
     background-image: linear-gradient(
         rgba(91, 0, 0, 0.8),
@@ -148,5 +150,5 @@ body{
 }
 
 .footer p{
-    padding: 10px;
+    padding: 15px;
 }

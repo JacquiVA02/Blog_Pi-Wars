@@ -37,20 +37,33 @@
 
     </header>
 
-    <table class="tabla container" cellspacing="30">
+    <table id="miTabla" class="tabla container" cellspacing="30">
         <tr>
             <td class="aboutus">Conoce al equipo</td>
             <td class="bitacora">Bitácora</td>
         </tr>
+        <!--
         <tr>
             <td>uwu</td>
             <td>Jaja</td>
         </tr>
+        -->
     </table>
 
     <footer class="footer">
         <p>Si no? </p>
     </footer>
 </body>
+
+<script>
+    document.getElementById('miTabla').addEventListener('click', function (event) {
+        var target = event.target;
+        if (target.tagName === 'TD' && target.classList.contains('aboutus')) {
+            // Redirige a la otra interfaz HTML
+            window.location.href = 'aboutus.html';
+        }
+    });
+</script>
+
 
 </html>
