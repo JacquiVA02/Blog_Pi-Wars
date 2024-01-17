@@ -85,3 +85,68 @@ body{
     padding: 0 250px;
     margin-bottom: 25px;
 }
+
+.tabla{
+    margin-top: 25px;
+    font-size: 25px;
+    border-collapse: separate;
+    border: black 2px;
+    text-align: center;
+}
+
+.tabla td{
+    height: 200px;
+    width: 400px;
+    /*border: black 2px solid;*/
+    /*background-color: #C5C5C5;*/
+}
+
+.aboutus{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(images/team.jpeg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFDFC;
+}
+
+.aboutus:hover{
+    background-image: linear-gradient(
+        rgba(95, 40, 25, 0.8),
+        rgba(95, 40, 25, 0.8)),
+        url(images/team.jpeg);
+    /*background-color: #623828;*/
+    color: #FFFDFC;
+}
+
+.bitacora{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(images/blog.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFDFC;
+}
+
+.bitacora:hover{
+    background-image: linear-gradient(
+        rgba(91, 0, 0, 0.8),
+        rgba(91, 0, 0, 0.8)),
+        url(images/blog.jpg);
+    /*background-color: #623828;*/
+    color: #FFFDFC;
+}
+
+.footer{
+    background-color: black;
+    color: #FFFDFC;
+    text-align: center;
+}
+
+.footer p{
+    padding: 10px;
+}
