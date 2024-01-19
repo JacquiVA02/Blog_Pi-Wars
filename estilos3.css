@@ -82,6 +82,7 @@ body{
 .tabla{
     margin-top: 35px;
     text-align: center;
+    width: 1000px;
 }
 
 .tabla th{
