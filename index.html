@@ -10,7 +10,9 @@
 <body>
     <header class = "header">
         <div class ="menu container">
-            <a href="#" class="logo">Logo</a>
+            <a href="#" class="logo">
+                <img src="images/LOGO-PIWARS.png" width="130" height="130">
+            </a>
             <input type="checkbox" id="menu"/>
             <label for="menu">
                 
@@ -21,17 +23,16 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="aboutus.html">About Us</a></li>
                     <li><a href="blog.html">Blog</a></li>
+                    <li><a href="design.html">Design</a></li>
                 </ul>
             </nav>
         </div>
 
         <div class="header-content container">
             <h1>The Cavemen</h1>
+            <h2>PI WARS 2024</h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Tempore maiores doloremque impedit eaque tenetur quasi nam id optio, 
-                incidunt ipsam inventore dolores perferendis omnis, hic illum 
-                laudantium perspiciatis, consequatur corporis.
+                "From the caverns of innovation, the Caveman emerge, fusing ingenuity and passion, we forge our way to victory in Pi Wars 2024, challenging the limits of robotics with the strength of our togetherness and creativity."
             </p>
         </div>
 
@@ -41,6 +42,7 @@
         <tr>
             <td class="aboutus">Meet the Team</td>
             <td class="bitacora">Blog</td>
+            <td class="design">Design</td>
         </tr>
         <!--
         <tr>
@@ -65,6 +67,10 @@
         if (target.tagName === 'TD' && target.classList.contains('bitacora')) {
             // Redirige a la otra interfaz HTML
             window.location.href = 'blog.html';
+        }
+        if (target.tagName === 'TD' && target.classList.contains('design')) {
+            // Redirige a la otra interfaz HTML
+            window.location.href = 'design.html';
         }
     });
 </script>

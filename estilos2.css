@@ -13,7 +13,7 @@ body{
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -104,4 +104,22 @@ th{
 
 .texto-justificado {
     text-align: justify;
+}
+
+
+.foto-blog {
+    mask-image: linear-gradient(
+        black 80%,
+        transparent
+    );
+}
+
+.foto-container {
+    padding: 20px; /* Esto agrega espacio alrededor de la imagen dentro de la celda */
+}
+
+/* Estilos para la imagen, si deseas agregar margen directamente a la imagen */
+.foto-container img {
+    display: block; /* Esto asegura que el margen se aplique correctamente */
+    margin: auto; /* Esto centra la imagen en la celda y agrega margen automáticamente a ambos lados */
 }
