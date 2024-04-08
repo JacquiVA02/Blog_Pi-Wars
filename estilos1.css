@@ -155,7 +155,7 @@ body{
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)),
-        url(images/blog.jpg);
+        url(images/Design_image.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -167,7 +167,7 @@ body{
     background-image: linear-gradient(
         rgba(91, 0, 0, 0.8),
         rgba(91, 0, 0, 0.8)),
-        url(images/blog.jpg);
+        url(images/Design_image.jpg);
     /*background-color: #623828;*/
     color: #FFFDFC;
 }
