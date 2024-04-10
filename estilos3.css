@@ -104,7 +104,7 @@ body{
 }
 
 .video-container video {
-    margin: 0 10px; /* Agrega un margen de 10px a cada lado de los videos */
+    margin: 0 20px; /* Agrega un margen de 10px a cada lado de los videos */
 }
 
 
