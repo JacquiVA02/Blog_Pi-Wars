@@ -92,3 +92,13 @@ body{
 .tabla td{
     text-align: center;
 }
+
+.video-container {
+    display: flex;
+    justify-content: center; /* Centra los elementos */
+    /*align-items: center; /* Alinea los elementos verticalmente si hay diferencia de altura */
+}
+
+.video-container video {
+    margin: 0 20px; /* Agrega un margen de 10px a cada lado de los videos */
+}
